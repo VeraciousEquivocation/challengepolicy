@@ -1,0 +1,15 @@
+/* 
+    Here you'll want to import the fonts for brandon-grotesque, and bitter.
+    fira-mono is listed here, but was ultimately not utilized for the project
+*/
+
+body {
+    height: 100%;
+    margin: 0;
+}
+#root {
+    height: 100%;
+}
+.tk-brandon-grotesque { font-family: "brandon-grotesque",sans-serif; }
+.tk-bitter { font-family: "bitter",serif; }
+.tk-fira-mono { font-family: "fira-mono",monospace; }

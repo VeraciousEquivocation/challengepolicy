@@ -1,0 +1,19 @@
+.circle {
+    border-radius: 50%;
+    border: 2px solid #ffdd3f;
+    background-color: none;
+    width: 56px;
+    min-width: 56px;
+    height: 56px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    transition: background-color 300ms ease-in-out;
+    svg {
+        font-size: 32px;
+    }
+    &.active {
+        background-color: #ffdd3f;
+    }
+}
